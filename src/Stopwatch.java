@@ -21,6 +21,10 @@ public class Stopwatch {
         public void run() {
             secounds++;
             System.out.println(secounds);
+            
+            if (secounds== 900){
+                secounds = 0;
+            }
         }
     };
     public  void start(){
