@@ -12,7 +12,7 @@ import java.util.TimerTask;
  *
  * @author Kalle
  */
-public class Stopwatch {
+public class RuneScapeTimer {
     
     int secounds = 0;
     Timer timer = new Timer();
